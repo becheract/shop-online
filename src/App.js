@@ -44,6 +44,7 @@ class App extends React.Component {
 
         <button onClick={() => this.handleButtonClick('John')}>Click for John</button>
         <button onClick={() => this.handleButtonClick('Mary')}>Click for Mary</button>
+        <button onClick={() => this.handleButtonClick('Danny')}>Click for Danny</button>
         <button onClick={this.handleIncreaseClick}>Increase</button>
         <button onClick={this.handleDecreaseClick}>Decrease</button>
 
